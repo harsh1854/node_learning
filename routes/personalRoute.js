@@ -17,6 +17,6 @@ router.post('/person',async(req,res)=>{
     }
     catch(err){
         console.log(err);
-        res.status(500).json(err: "internet nor working")
+        // res.status(500).json(err: "internet nor working")
     }
 })
